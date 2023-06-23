@@ -13,7 +13,7 @@ export default function Home() {
         <div >
           <div className='p-10'>
             <img className=' w-[250px] border-4 border-sky-400 rounded-xl' src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/346461390_757186696055371_6503476952280876085_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE2vVCwI5PtWbBUzqU-oeumAahjsafg6YgBqGOxp-DpiP3B9bHP4Dn3BGMHrgeYTTSV9nueHjPMuQmEtDrD0RTz&_nc_ohc=HJQ5VF4LYmcAX90o8mD&_nc_ht=scontent.fnak3-1.fna&oh=00_AfB133XcCLXuruGuC8MUhWOp1MSoC8JJ-3JTbOXtL-npYw&oe=64989FBF"/>
-            <br></br><p className='kan text-5xl text-blue-800 '>PORTFOLIO</p>
+            <p className='kan text-5xl text-blue-800 '>PORTFOLIO</p>
             <div className='flex items-center mt-10 text-4xl text-blue-400 ' >
               <a className="flex items-center" href="https://www.facebook.com/profile.php?id=100017024203422"><BsFacebook /><span className='ml-4 text-[18px]'>กาน'นน</span></a>
             </div>
