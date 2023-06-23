@@ -5,7 +5,7 @@ export default function About() {
         <div className="container mx-auto px-16">
             <div className="py-10 flex justify-between">
             <Link className="text-white text-5xl "href="/"><BsArrowLeftCircle/></Link>
-            <p className='kan text-4xl text-blue-800 font-bold'>S K I L L S</p></div>
+            <p className='kan text-4xl text-blue-800 font-bold'>SKILLS</p></div>
             <div className="mt-6">
                 <p className="text-white text-[20px]"> Word </p>
                 <div className="w-full bg-gray-200 rounded-full ">

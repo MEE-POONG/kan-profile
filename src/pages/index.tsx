@@ -51,7 +51,7 @@ export default function Home() {
       <div>
         <div className='mt-10'>
         <Link href="/about">
-        <h2 className='kan text-center text-4xl text-blue-800 font-bold '>S K I L L S</h2>
+        <h2 className='kan text-center text-4xl text-blue-800 font-bold '>SKILLS</h2>
         </Link>
         </div>
         <img className='h-[180px] mt-24 ml-12 w-[250px] border-4 border-blue-800 rounded-xl' src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/344085867_1036696560639859_5905682265916459038_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&cb=99be929b-3346023f&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF1VfQCC8CcBLaHGhKRoja-yuVj2cN52HXK5WPZw3nYdfQmzWjYCY7MHcPltpZzv4BXa6qHGiynobYARkNkxEMt&_nc_ohc=SUHZDBgo4OIAX8xVc4t&_nc_ht=scontent.fnak3-1.fna&oh=00_AfCYEoivFvO4mYbTV6KSYda91hI5G2PJ0n57lfiP3cW39w&oe=6498766A"></img>
