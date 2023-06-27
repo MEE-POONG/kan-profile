@@ -14,13 +14,13 @@ export default function Home() {
         <div className="banner-image">
           <img className='w-[300px]  rounded-xl mx-auto' src="./NKN.jpg" />
         </div>
-        <a className="mt-5 flex justify-center items-center text-zinc-800"
+        <a className="mt-5 flex justify-center items-center text-sky-400"
           href="https://www.facebook.com/profile.php?id=100017024203422">
           <BsFacebook size={40} />
           <span className='ml-6 text-[24px] text-white'>
             กาน &apos; นน</span>
         </a>
-        <a className="mt-5 flex justify-center items-center text-zinc-800"
+        <a className="mt-5 flex justify-center items-center text-pink-300"
           href="https://www.instagram.com/mith.kan/"><BsInstagram size={40} />
           <p className='ml-6 text-[24px] text-white'>mith.kan</p>
         </a>
