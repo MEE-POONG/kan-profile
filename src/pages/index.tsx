@@ -20,7 +20,7 @@ export default function Home() {
           <span className='ml-6 text-[24px] text-white'>
             กาน &apos; นน</span>
         </a>
-        <a className="mt-5 flex justify-center items-center text-pink-300"
+        <a className="mt-5 flex justify-center items-center text-red-500"
           href="https://www.instagram.com/mith.kan/"><BsInstagram size={40} />
           <p className='ml-6 text-[24px] text-white'>mith.kan</p>
         </a>
