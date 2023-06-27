@@ -1,54 +1,27 @@
-import Link from "next/link";
-import { BsArrowLeftCircle } from "react-icons/bs";
-export default function About() {
-    return (
-        <div className="container mx-auto md:px-16 px-5">
-            <div className="py-10 flex justify-between">
-            <Link className="text-white text-5xl "href="/"><BsArrowLeftCircle/></Link>
-            <p className='kan text-4xl text-blue-800 font-bold'>SKILLS</p></div>
-            <div className="md:mt-6 mt-5">
-                <p className="text-white text-[20px]"> Word </p>
-                <div className="w-full bg-gray-200 rounded-full ">
-                    <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[65%]"> 65%</div>
-                </div>
+import RootLayout from "./layout"
+
+
+export default function About(){
+
+    return(
+        <RootLayout>
+          <div className='container p-5 text-white mx-auto mt-16 text-center'>
+            <h2 className='text-center text-4xl'>ประวัติส่วนตัว</h2>
+            <div className='mt-10 text-2xl'>
+              <p>นายอภิสิทธิ์ ศิริอมรวิวัฒน์</p>
+              <p>ชื่อเล่น : กานต์</p>
+              <p>เกิดวันที่ 4 เมษายน พ.ศ.2544 ปัจจุบันอายุ 22 ปี</p>
+              <p>เลือดกรุ๊ป : บี เชื้อชาติ : ไทย สัญชาติ : ไทย</p>
+              <p>บ้านเลขที่ 3หมู่ 15 ต.หนองหัวแรต อ.หนองบุญมาก จ.นครราชสีมา รหัสไปรษณีย์ 30410</p>
+              <p>สถานศึกษา : มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน คณะบริหารธุรกิจ สาขาสารสนเทศและนวัตกรรมธุรกิจดิจิทัล</p>
+              <p>งานอดิเรก : ดูหนัง ฟังเพลง และฟังข่าวกีฬาทั่วไป</p>
+              <p>สีที่ชอบ : สีฟ้า</p>
+              <p>กีฬาที่ชอบ : ฟุตบอล ปิงปอง แบดมินตัน</p>
+              <p>ผลงานด้านการแข่งขัน : ได้ที่ 1 ของการแข่งขันROVที่มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน,</p>
+              <p>ได้ที่ 2 ของรายการแข่งขันROVที่มหาวิทยาลัยราชภัฏนครราชสีมา</p>
+              
             </div>
-            <div className="md:mt-6 mt-5">
-                <p className="text-white text-[20px]"> Powerpoint </p>
-                <div className="w-full bg-gray-200 rounded-full ">
-                    <div className="bg-orange-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]"> 50%</div>
-                </div>
-            </div>
-            <div className="md:mt-6 mt-5">
-                <p className="text-white text-[20px]"> Excel </p>
-                <div className="w-full bg-gray-200 rounded-full ">
-                    <div className="bg-green-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[40%]"> 40%</div>
-                </div>
-            </div>
-            <div className="md:mt-6 mt-5">
-                <p className="text-white text-[20px]"> Visual Studio Code </p>
-                <div className="w-full bg-gray-200 rounded-full ">
-                    <div className="bg-blue-400 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[40%]"> 40%</div>
-                </div>
-            </div>
-            <div className="md:mt-6 mt-5">
-                <p className="text-white text-[20px]"> CSS Style Text </p>
-                <div className="w-full bg-gray-200 rounded-full ">
-                    <div className="bg-purple-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[40%]"> 40%</div>
-                </div>
-            </div>
-            <div className="md:mt-6 mt-5">
-                <p className="text-white text-[20px]"> Figma </p>
-                <div className="w-full bg-gray-200 rounded-full ">
-                    <div className="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[65%]"> 65%</div>
-                </div>
-            </div>
-            <div className="md:mt-6 mt-5">
-                <p className="text-white text-[20px]"> Adobe XD </p>
-                <div className="w-full bg-gray-200 rounded-full ">
-                    <div className="bg-purple-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]"> 60%</div>
-                </div>
-            </div>
-            
-        </div>
+          </div>
+        </RootLayout>
     )
 }
